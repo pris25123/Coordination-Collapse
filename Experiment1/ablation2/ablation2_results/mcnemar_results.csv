@@ -1,0 +1,4 @@
+A,B,p,sig,discordant
+Single-Agent,2-Agent Pipeline,0.0,p<0.05 ✓,74
+Single-Agent,3-Agent Pipeline,0.0,p<0.05 ✓,62
+2-Agent Pipeline,3-Agent Pipeline,0.0003,p<0.05 ✓,24

@@ -1,0 +1,72 @@
+task_id,collapse_type,collapse_type_name,evidence
+HumanEval/0,2,Interface Contract Loss,Original return type 'bool' dropped in implementation
+HumanEval/2,2,Interface Contract Loss,Original return type 'float' dropped in implementation
+HumanEval/4,2,Interface Contract Loss,Original return type 'float' dropped in implementation
+HumanEval/10,2,Interface Contract Loss,Original return type 'bool' dropped in implementation
+HumanEval/11,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/13,2,Interface Contract Loss,Original return type 'int' dropped in implementation
+HumanEval/17,2,Interface Contract Loss,Original return type 'List[int]' dropped in implementation
+HumanEval/20,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/21,2,Interface Contract Loss,Original return type 'List[float]' dropped in implementation
+HumanEval/25,2,Interface Contract Loss,Original return type 'List[int]' dropped in implementation
+HumanEval/36,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/39,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/40,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/44,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/45,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/47,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/52,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/53,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/55,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/57,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/58,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/60,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/63,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/67,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/69,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/71,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/72,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/73,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/76,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/77,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/81,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/82,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/84,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/85,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/88,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/89,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/92,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/94,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/96,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/97,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/98,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/99,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/100,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/102,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/103,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/106,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/107,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/109,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/110,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/116,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/119,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/121,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/122,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/125,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/129,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/131,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/133,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/135,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/137,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/138,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/139,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/143,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/147,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/148,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/151,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/152,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/153,1,Spec Truncation,"Spec length=0 chars, ends with: ''"
+HumanEval/154,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/157,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/159,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/160,3,Logic Error,Spec appears complete; implementation logic incorrect

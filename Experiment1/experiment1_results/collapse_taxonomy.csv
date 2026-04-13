@@ -1,0 +1,44 @@
+task_id,collapse_type,collapse_type_name,evidence
+HumanEval/5,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/7,1,Spec Truncation,"Spec length=991 chars, ends with: 'ntain the substring.\n\n## Task to convert'"
+HumanEval/8,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/11,1,Spec Truncation,"Spec length=729 chars, ends with: 'sult as a string.\n\n## Function Signature'"
+HumanEval/13,1,Spec Truncation,"Spec length=587 chars, ends with: 'ng on which is 0.\n\n## Function Signature'"
+HumanEval/16,1,Spec Truncation,"Spec length=661 chars, ends with: 'se a `TypeError`.\n\n## Function Signature'"
+HumanEval/20,1,Spec Truncation,"Spec length=1076 chars, ends with: 'absolute difference.\n\n## Task to convert'"
+HumanEval/22,1,Spec Truncation,"Spec length=608 chars, ends with: ' the list itself.\n\n## Function Signature'"
+HumanEval/23,1,Spec Truncation,"Spec length=293 chars, ends with: 'Edge Cases\n- None\n\n## Function Signature'"
+HumanEval/27,1,Spec Truncation,"Spec length=308 chars, ends with: ' None.\n\n## Function Signature\n\n\n\n## Code'"
+HumanEval/29,1,Spec Truncation,"Spec length=1268 chars, ends with: 'the given prefix.\n\n## Function Signature'"
+HumanEval/30,1,Spec Truncation,"Spec length=677 chars, ends with: 'rn an empty list.\n\n## Function Signature'"
+HumanEval/31,1,Spec Truncation,"Spec length=496 chars, ends with: 'a prime number).\n\n## Function Signature:'"
+HumanEval/35,1,Spec Truncation,"Spec length=532 chars, ends with: 'he maximum value.\n\n## Function Signature'"
+HumanEval/37,1,Spec Truncation,"Spec length=908 chars, ends with: ' in sorted order.\n\n## Function Signature'"
+HumanEval/38,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/40,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/42,1,Spec Truncation,"Spec length=329 chars, ends with: 'Edge Cases\n- None\n\n## Function Signature'"
+HumanEval/45,1,Spec Truncation,"Spec length=766 chars, ends with: ' negative number.\n\n## Function Signature'"
+HumanEval/48,1,Spec Truncation,"Spec length=976 chars, ends with: ' return `False`.\n\n## Function Signature:'"
+HumanEval/49,1,Spec Truncation,"Spec length=2097 chars, ends with: 'function should not add constraints that'"
+HumanEval/51,1,Spec Truncation,"Spec length=686 chars, ends with: 'e string itself.\n\n## Function Signature:'"
+HumanEval/52,1,Spec Truncation,"Spec length=675 chars, ends with: 'ld return `True`.\n\n## Function Signature'"
+HumanEval/53,1,Spec Truncation,"Spec length=263 chars, ends with: 'Edge Cases\n- None\n\n## Function Signature'"
+HumanEval/56,1,Spec Truncation,"Spec length=861 chars, ends with: 'd return `True`.\n\n## Function Signature:'"
+HumanEval/58,1,Spec Truncation,"Spec length=1701 chars, ends with: 's.\n- The function should handle the case'"
+HumanEval/60,1,Spec Truncation,"Spec length=425 chars, ends with: ' Function Signature\n\n\n## Task to Convert'"
+HumanEval/61,1,Spec Truncation,"Spec length=749 chars, ends with: 'boundary values.\n\n## Function Signature:'"
+HumanEval/68,1,Spec Truncation,"Spec length=906 chars, ends with: 'eturn an empty list.\n\n## Task to convert'"
+HumanEval/71,1,Spec Truncation,"Spec length=1803 chars, ends with: 'rea of the triangle rounded to 2 decimal'"
+HumanEval/76,1,Spec Truncation,"Spec length=0 chars, ends with: ''"
+HumanEval/79,1,Spec Truncation,"Spec length=1237 chars, ends with: 'y(11)` returns `""db001011db""`\n- `decimal'"
+HumanEval/85,1,Spec Truncation,"Spec length=964 chars, ends with: '`[1, 3, 5, 7, 9, 5]`\n\n## Task to convert'"
+HumanEval/96,1,Spec Truncation,"Spec length=1250 chars, ends with: 'ingle element, boundary values.\n\n## Task'"
+HumanEval/98,1,Spec Truncation,"Spec length=586 chars, ends with: ' should return 0.\n\n## Function Signature'"
+HumanEval/103,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/105,2,Interface Contract Loss,"Parameter count mismatch: expected 1, got 0"
+HumanEval/119,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/122,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/123,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/147,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/156,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/162,1,Spec Truncation,"Spec length=753 chars, ends with: 'ent, boundary values\n\n## Task to convert'"

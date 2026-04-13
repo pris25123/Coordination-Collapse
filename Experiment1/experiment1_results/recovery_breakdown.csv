@@ -1,0 +1,71 @@
+task_id,recovered,any_defect,sig_empty,constraints_defect,truncated,violations
+HumanEval/0,False,False,,,,- Function has no return statement
+HumanEval/1,False,False,,,,- Function has no return statement
+HumanEval/5,False,False,False,False,False,"- Code does not contain a function definition for 'intersperse'. Found: 'def fromtypingimportListdeferse(numbers:List[int], delimiter:int)->List[int]:\n  '"
+HumanEval/10,False,False,,,,- Code does not contain a function definition for 'make_palindrome'. Found: 'def is_palindrome(string: str) -> bool:\n    if string is None:\n        return Fa'
+HumanEval/11,True,True,False,True,True,"- Code does not contain a function definition for 'string_xor'. Found: 'def from_typing_import_list_def_string_xor(a: str, b: str) -> str:\n    is_perfor'"
+HumanEval/23,False,True,False,True,True,"- Code does not contain a function definition for 'strlen'. Found: 'def defstrlen(string:str)->int:\n    """"""\n    This function calculates the length '"
+HumanEval/28,False,False,,,,- Function has no return statement
+HumanEval/32,False,False,,,,"- Code does not contain a function definition for 'find_zero'. Found: 'def poly(xs: list, x: float) -> float:\n    return sum([coef * x ** i for i, coef'"
+HumanEval/35,True,True,False,True,True,- Function has no return statement
+HumanEval/39,False,False,,,,- Function has no return statement
+HumanEval/40,False,True,False,True,False,- Code does not contain a function definition for 'triples_sum_to_zero'. Found: 'def deftriples_sum_to_zero(l: list):\n    # Check if there are three distinct ele'
+HumanEval/43,False,False,,,,- Function has no return statement
+HumanEval/45,True,True,False,True,True,- Function has no return statement
+HumanEval/48,True,True,True,False,False,- Function has no return statement
+HumanEval/51,False,True,True,False,False,- Function has no return statement
+HumanEval/52,False,True,False,True,True,- Function has no return statement
+HumanEval/56,False,True,True,False,False,- Function has no return statement
+HumanEval/61,False,True,True,False,False,- Function has no return statement
+HumanEval/62,False,False,,,,"- Code does not contain a function definition for 'derivative'. Found: 'def calculate_derivative(coefficients):\n    """"""\n    Calculate the derivative of '"
+HumanEval/71,False,True,False,True,True,"- Code does not contain a function definition for 'triangle_area'. Found: 'defdeftriangle_area(a, b, c):Giventhelengthsofthethreesidesofatriangle.Returnthe'"
+HumanEval/72,False,False,,,,- Function has no return statement
+HumanEval/74,False,False,,,,"- Code does not contain a function definition for 'total_match'. Found: 'def is_prime(n):\n    """"""\n    Check if a number is prime.\n\n    Args:\n        n (i'"
+HumanEval/76,False,True,False,True,True,"- Code does not contain a function definition for 'is_simple_power'. Found: 'def is_prime(n):\n    """"""\n    Check if a number is prime.\n\n    Args:\n        n (i'"
+HumanEval/77,False,False,,,,- Code does not contain a function definition for 'iscube'. Found: 'def is_cube(a: int) -> bool:\n    if a < 0:\n        return False\n    n = a ** (1.'
+HumanEval/78,False,False,,,,- Code does not contain a function definition for 'hex_key'. Found: 'def count_prime_hex_digits(hex_num):\n    # Define the list of prime hexadecimal '
+HumanEval/83,False,False,,,,- Code does not contain a function definition for 'starts_one_ends'. Found: 'def starts_ends_one(n):\n    if n < 1:\n        return None\n    count = 0\n    for '
+HumanEval/84,False,False,,,,- Code does not contain a function definition for 'solve'. Found: 'def defsolve(N):\n    def sum_of_digits_in_binary(N):\n        binary = bin(N)\n   '
+HumanEval/87,False,False,,,,"- Code does not contain a function definition for 'get_row'. Found: 'def function_signature():\n    """"""\n    FUNCTIONSIGNATURE:\n    def function_name(i'"
+HumanEval/92,False,False,,,,"The inputs must be integers.""
+    
+    if x + y == z or x + z == y or y + z == x:
+        return True
+    else:
+        return False
+
+# Test cases
+print(any_int(1, 2, 3))  # False
+print(any_int(1, 1, 2))  # True
+print(any_int(1, '2', 3))  # Violation
+print(any_int(1, 2.5, 3))  # Violation
+```
+
+This code checks if the inputs are integers, then checks if any two of the numbers are equal to the sum o"
+HumanEval/105,False,False,False,False,False,"- Code does not contain a function definition for 'by_length'. Found: 'def function_signature():\n    """"""\n    This function does something.\n\n    :param '"
+HumanEval/116,False,False,,,,"- Code does not contain a function definition for 'sort_array'. Found: 'def function_name(input_parameters):\n    """"""\n    Task Description:\n    Write a f'"
+HumanEval/124,False,False,,,,- Function has no return statement
+HumanEval/131,False,False,,,,- Code does not contain a function definition for 'digits'. Found: 'def defdigits(n):\n    def is_even(n):\n        return n % 2 == 0\n\n    def product'
+HumanEval/132,False,False,,,,- Function has no return statement
+HumanEval/140,False,False,,,,"- Code does not contain a function definition for 'fix_spaces'. Found: 'def is_prime(n):\n    """"""\n    Check if a number is prime.\n\n    Args:\n        n (i'"
+HumanEval/143,False,False,,,,"- Code does not contain a function definition for 'words_in_sentence'. Found: ""def defwords_in_sentence(sentence):\n    words = sentence.split()\n    return ' '."""
+HumanEval/145,False,False,,,,- Code does not contain a function definition for 'order_by_points'. Found: 'def deorder_by_points(nums):\n    # Your code here'
+HumanEval/149,False,False,,,,- Code does not contain a function definition for 'sorted_list_sum'. Found: 'def list_sort(lst):\n    # Delete strings with odd length\n    lst = [word for wor'
+HumanEval/150,False,False,,,,"n, x, y should be integers.""
+    if not is_prime(n):
+        return x
+    return y
+
+# Test cases
+print(x_or_y(2, 1, 2)) # Expected output: 2
+print(x_or_y(3, 1, 2)) # Expected output: 2
+print(x_or_y"
+HumanEval/153,False,False,,,,"class_name should be a non-empty string""
+    if not isinstance(extensions, list) or not extensions:
+        return ""VERDICT: VIOLATION\nVIOLATIONS: extensions should be a non-empty list""
+
+    strengths = [(extension, sum(c.isupper() for c in extension) + sum(c.islower() for c in extension)) for extension in extensions]
+    strongest_extension = max(strengths, key=lambda x: x[1])
+
+    return f""{cla"
+HumanEval/162,False,True,False,True,True,"- Code does not contain a function definition for 'string_to_md5'. Found: 'def function_specification_to_plaintext(function_specification):\n    """"""\n    Con'"

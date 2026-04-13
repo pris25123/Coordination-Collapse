@@ -1,0 +1,45 @@
+{
+  "direct": {
+    "n": 100,
+    "score_mean": 1.0,
+    "score_std": 0.0,
+    "score_ci95": 0.0,
+    "exec_rate": 1.0
+  },
+  "hierarchical": {
+    "n": 100,
+    "score_mean": 0.8667,
+    "score_std": 0.307,
+    "score_ci95": 0.0602,
+    "exec_rate": 1.0,
+    "align_mean": 0.7018,
+    "align_std": 0.1228,
+    "align_ci95": 0.0241,
+    "plan_valid_rate": 0.5,
+    "collapse_rate": 0.0
+  },
+  "oracle": {
+    "n": 100,
+    "score_mean": 1.0,
+    "score_std": 0.0,
+    "score_ci95": 0.0,
+    "exec_rate": 1.0,
+    "align_mean": 0.7023,
+    "align_std": 0.1234,
+    "align_ci95": 0.0242,
+    "plan_valid_rate": 0.5
+  },
+  "per_task_collapse": {
+    "count_vowels": 0.0,
+    "factorial": 0.0,
+    "fibonacci": 0.0,
+    "gcd": 0.0,
+    "is_even": 0.0,
+    "max_two": 0.0,
+    "palindrome": 0.0,
+    "prime": 0.0,
+    "reverse": 0.0,
+    "sum_list": 0.0
+  },
+  "cohens_d_direct_vs_hierarchical": 0.6141
+}

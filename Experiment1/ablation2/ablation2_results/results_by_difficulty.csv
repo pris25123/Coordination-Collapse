@@ -1,0 +1,4 @@
+difficulty,Single-Agent,2-Agent,3-Agent
+Easy (0–54),0.909,0.582,0.782
+Medium (55–109),0.818,0.327,0.4
+Hard (110–163),0.759,0.333,0.389

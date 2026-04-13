@@ -1,0 +1,60 @@
+=== Cell 3 ===
+Device: cuda  |  Seed: 42
+
+=== Cell 4 ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Total tasks: 164
+
+=== Cell 5 ===
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100%|██████████| 434/434 [00:00<00:00, 454.31it/s]
+
+Loaded: Qwen/Qwen2.5-Coder-3B-Instruct
+
+=== Cell 6 ===
+Validator reuses main model: Qwen/Qwen2.5-Coder-3B-Instruct
+All 3 agents (architect, implementer, validator) use the same model.
+
+=== Cell 7 ===
+Orchestrated generate() defined.
+  architect   → 1.3B  (512 tok)
+  implementer → 1.3B  (384 tok)
+  validator   → 6.7B  (256 tok)
+
+=== Cell 8 ===
+Ablation role config bound:
+  architect   → Qwen/Qwen2.5-Coder-3B-Instruct  (same model)
+  implementer → Qwen/Qwen2.5-Coder-3B-Instruct  (same model)
+  validator   → Qwen/Qwen2.5-Coder-3B-Instruct  (same model)
+
+ABLATION: Qwen2.5-Coder-3B-Instruct for ALL roles
+Compare results to main paper (DeepSeek 1.3B + 6.7B validator)
+
+=== Cell 11 ===
+All prompt builders defined.
+
+=== Cell 12 ===
+Spec cleaner, structural check, and validator parser defined.
+
+=== Cell 13 ===
+Statistics utilities defined.
+
+=== Cell 14 ===
+Single-agent baseline:   0%|          | 0/164 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Single-agent baseline: 100%|██████████| 164/164 [02:26<00:00,  1.12it/s]
+
+Single-Agent Pass@1: 0.8293  [0.7683, 0.8841]
+
+
+
+=== Cell 15 ===
+2-agent pipeline: 100%|██████████| 164/164 [12:16<00:00,  4.49s/it]
+
+2-Agent Pass@1:         0.4146  [0.3415, 0.4939]
+Coordination Collapse:  0.4329  (71/164 tasks)
+
+
+
+=== Cell 17 ===
+3-agent pipeline:  99%|█████████▉| 163/164 [16:00<00:05,  5.93s/it]
