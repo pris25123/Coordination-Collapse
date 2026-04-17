@@ -1,0 +1,67 @@
+task_id,collapse_type,collapse_type_name,evidence
+HumanEval/0,2,Interface Contract Loss,Original return type 'bool' dropped in implementation
+HumanEval/3,2,Interface Contract Loss,Original return type 'bool' dropped in implementation
+HumanEval/4,2,Interface Contract Loss,Original return type 'float' dropped in implementation
+HumanEval/5,2,Interface Contract Loss,Original return type 'List[int]' dropped in implementation
+HumanEval/6,2,Interface Contract Loss,Original return type 'List[int]' dropped in implementation
+HumanEval/7,1,Spec Truncation,"Spec length=1702 chars, ends with: 'The function should return the string if'"
+HumanEval/12,2,Interface Contract Loss,Original return type 'Optional[str]' dropped in implementation
+HumanEval/14,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/17,2,Interface Contract Loss,Original return type 'List[int]' dropped in implementation
+HumanEval/19,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/20,2,Interface Contract Loss,"Original return type 'Tuple[float, float]' dropped in implementation"
+HumanEval/21,2,Interface Contract Loss,Original return type 'List[float]' dropped in implementation
+HumanEval/28,2,Interface Contract Loss,Original return type 'str' dropped in implementation
+HumanEval/29,1,Spec Truncation,"Spec length=1739 chars, ends with: 'other string and is also part of another'"
+HumanEval/31,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/33,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/39,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/41,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/43,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/49,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/55,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/60,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/61,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/63,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/70,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/72,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/76,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/80,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/82,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/83,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/87,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/89,1,Spec Truncation,"Spec length=2234 chars, ends with: ' multiplied to fractional places returns'"
+HumanEval/95,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/96,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/100,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/101,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/102,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/103,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/104,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/105,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/106,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/109,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/110,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/111,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/112,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/113,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/114,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/117,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/118,1,Spec Truncation,"Spec length=1790 chars, ends with: 'ant, another vowel, and a consonant, and'"
+HumanEval/121,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/122,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/128,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/135,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/139,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/146,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/147,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/148,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/150,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/151,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/153,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/154,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/155,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/158,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/159,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/160,3,Logic Error,Spec appears complete; implementation logic incorrect
+HumanEval/161,3,Logic Error,Spec appears complete; implementation logic incorrect

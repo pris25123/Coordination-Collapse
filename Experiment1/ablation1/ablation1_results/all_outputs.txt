@@ -1,0 +1,51 @@
+=== Cell 2 ===
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m23.0.1[0m[39;49m -> [0m[32;49m26.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49mpip install --upgrade pip[0m
+
+=== Cell 3 ===
+Device: cuda  |  Seed: 42
+
+=== Cell 4 ===
+Total tasks: 164
+
+=== Cell 5 ===
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+
+Main model loaded natively in 16-bit: deepseek-ai/deepseek-coder-6.7b-instruct
+
+
+=== Cell 6 ===
+Validator reuses main model: deepseek-ai/deepseek-coder-6.7b-instruct
+All three agents now use DeepSeek-Coder 6.7B.
+
+=== Cell 7 ===
+Generation functions defined.
+
+=== Cell 10 ===
+All prompt builders defined.
+
+=== Cell 11 ===
+Spec cleaner, structural check, and validator parser defined.
+
+=== Cell 12 ===
+Statistics utilities defined.
+
+=== Cell 13 ===
+Single-agent baseline: 100%|██████████| 164/164 [06:13<00:00,  2.28s/it]
+
+Single-Agent Pass@1: 0.7317  [0.6646, 0.7988]
+
+
+
+=== Cell 14 ===
+2-agent pipeline: 100%|██████████| 164/164 [24:13<00:00,  8.87s/it]
+
+2-Agent Pass@1:         0.3902  [0.3171, 0.4634]
+Coordination Collapse:  0.4024  (66/164 tasks)
+
+
+
+=== Cell 16 ===
+3-agent pipeline:  99%|█████████▉| 163/164 [28:15<00:09,  9.60s/it]
