@@ -25,7 +25,7 @@ Adding a Validator agent or scaling from 1.3B → 6.7B parameters does **not** f
 
 ```
 NLP/
-├── NLP.pdf                         # Paper
+├── CoordinationCollapse_Full_Evaluation.ipynb                         # Full Evaluation
 │
 ├── Experiment1/                    # Main HumanEval benchmark experiments
 │   ├── experiment1.ipynb           # Single-agent, 2-agent, 3-agent pipelines
